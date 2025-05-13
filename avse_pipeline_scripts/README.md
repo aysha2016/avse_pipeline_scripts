@@ -50,7 +50,7 @@ The system consists of several key components:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/avse-cognition-ai.git
+git clone https://github.com/aysha2016/avse-cognition-ai.git
 cd avse-cognition-ai
 ```
 
@@ -197,42 +197,5 @@ The model is trained to minimize the MSE loss between enhanced and clean audio f
 - Validation split: 10%
 - Early stopping: Yes
 
-## Performance
-
-The system is designed for real-time operation with the following performance targets:
-
-- Audio processing latency: < 50ms
-- Video processing latency: < 33ms (30 FPS)
-- MEG processing latency: < 100ms
-- Total pipeline latency: < 200ms
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Whisper model by OpenAI
-- MediaPipe for face mesh detection
-- PyTorch team for the deep learning framework
-
-## Citation
-
-If you use this system in your research, please cite:
-
-```bibtex
-@article{avse-cognition-ai,
-    title={AVSE-Cognition-AI: A Real-time Audio-Visual Speech Enhancement System with Cognitive Understanding},
-    author={Your Name},
-    journal={arXiv preprint},
-    year={2024}
-}
+    
 ```
